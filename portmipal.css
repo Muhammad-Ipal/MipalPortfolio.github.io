@@ -790,7 +790,6 @@ label {
 margin: 25px 15px;
 }
 
-.card-srt-img,
 .card-srt-img img {
   width: 190px;
   height: 125px;
@@ -990,7 +989,6 @@ margin: 25px 15px;
   border-radius: 2.3rem;
   display: flex;
   justify-content: space-between;
-  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
   margin-bottom: 3.5rem;
 }
 
@@ -1017,7 +1015,7 @@ margin: 25px 15px;
 }
 
 .cont-info li {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 500;
   color: #373737;
 }
@@ -1063,7 +1061,7 @@ margin: 25px 15px;
 }
 
 .cont-form .cont-input {
-  padding: 10px 24px;
+  padding: 10px 20px;
   border: none;
   background-color: var(--light-two);
   height: 45px;
