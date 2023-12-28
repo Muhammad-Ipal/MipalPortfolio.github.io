@@ -442,11 +442,6 @@ label {
   width: 340px;
 }
 
-.main-content svg {
-  position: relative;
-  bottom: 50%;
-}
-
 /* --------------------- About  ------------------------- */
 
 .about .container {
@@ -504,7 +499,7 @@ label {
 }
 
 .abt-list p {
-  font-size: 1rem;
+  font-size: 1em;
   color: var(--dark-three);
   letter-spacing: 0.15px;
 }
@@ -787,7 +782,8 @@ label {
 }
 
 .card-srt {
-margin: 25px 15px;
+  margin: 25px 15px;
+  max-width: 190px;
 }
 
 .card-srt-img img {

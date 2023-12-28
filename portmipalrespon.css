@@ -57,6 +57,7 @@
 @media screen and (max-width: 950px) {
   .main-content .container {
     flex-direction: column-reverse;
+    padding: 0;
   }
 
   .main-content .mc-right {
@@ -203,6 +204,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0;
+    place-items: center;
   }
 
   /* ----------- */
@@ -224,7 +226,7 @@
 
   .cont-medsos {
     justify-content: space-between;
-    margin-bottom: 2.2rem;
+    margin: 2.2rem 0 2.3rem;
   }
 
   .cont-medsos img {
@@ -256,5 +258,80 @@
 }
 
 @media screen and (max-width: 600px) {
+  .nav .container {
+    padding: 0 1.5rem;
+  }
 
+  .main-content .mc-right {
+    height: 450px;
+    margin-top: 50px;
+  }
+
+  .main-content .mc-right img {
+    width: 290px;
+  }
+
+  .main-content .mc-left .my-name {
+    font-size: 38px;
+  }
+
+  .main-content .mc-left .title-sc {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .main-content .mc-left .text {
+    width: 82%;
+    margin: 1.35rem auto;
+    font-size: 12.6px;
+  }
+
+  /* ----------- */
+
+  .about .container {
+    padding: 2rem 1rem 1.5rem;
+  }
+
+  .abt-right {
+    width: 100%;
+  }
+
+  .abt-right .title-sc {
+    font-size: 17.8px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.4rem;
+  }
+
+  .abt-right .text {
+    font-size: 13px;
+    text-align: center;
+    line-height: 19px;
+  }
+
+  .abt-list p {
+    font-size: 13px;
+  }
+
+  .abt-list :nth-child(even) {
+    margin: 6px 0;
+  }
+
+  .abt-list i {
+    font-size: 15px;
+  }
+  /* ----------- */
+
+  .qualification .text {
+    font-size: 11.6px;
+  }
+
+  .qlfcn {
+  padding: 12px 0 45px;
+  width: 260px;
+}
+
+.ttl-qlfcn {
+  font-size: 14px;
+}
 }
