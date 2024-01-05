@@ -258,6 +258,16 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  .title {
+    font-size: 1.25em;
+    padding-bottom: 0.9rem;
+  }
+
+  .title::before {
+    font-size: 0.4em;
+  }
+
   .nav .container {
     padding: 0 1.5rem;
   }
@@ -320,6 +330,11 @@
   .abt-list i {
     font-size: 15px;
   }
+
+    .sertifikasi .container {
+    padding: 0;
+  }
+
   /* ----------- */
 
   .qualification .container {
@@ -377,7 +392,7 @@
   /* ----------- */
 
   .skills .container {
-    padding: 0 1.85rem;
+    padding: 0 2rem;
   }
 
   /* ------------ */
@@ -458,5 +473,33 @@
     width: 100%;
   }
 
+    .cont-bottom {
+    width: 100%;
+  }
+
+  .cont-bottom p {
+    font-size: 12px;
+  }
+
+
   /* ----------- */
+
+    .footer-grid {
+    grid-template-columns: 2, 1fr;
+    grid-template-rows: auto;
+    gap: 0 30px;
+  }
+
+  .footer-followme {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .footer-map {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .footer-srv {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .footer-links {
+    grid-area: 1 / 2 / 2 / 3;
+  }
 }
